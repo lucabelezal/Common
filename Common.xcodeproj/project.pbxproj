@@ -244,9 +244,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B332523424417D060018AD75 /* Build configuration list for PBXNativeTarget "Common" */;
 			buildPhases = (
-				B332522724417D060018AD75 /* Headers */,
 				B332522824417D060018AD75 /* Sources */,
 				B332522924417D060018AD75 /* Frameworks */,
+				B332522724417D060018AD75 /* Headers */,
 				B332522A24417D060018AD75 /* Resources */,
 			);
 			buildRules = (
@@ -262,8 +262,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B332529C244186040018AD75 /* Build configuration list for PBXNativeTarget "CommonTests" */;
 			buildPhases = (
-				B3325290244186040018AD75 /* Sources */,
 				B3325291244186040018AD75 /* Frameworks */,
+				B3325290244186040018AD75 /* Sources */,
 				B3325292244186040018AD75 /* Resources */,
 			);
 			buildRules = (
@@ -526,6 +526,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucas.Common;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -552,6 +553,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lucas.Common;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
