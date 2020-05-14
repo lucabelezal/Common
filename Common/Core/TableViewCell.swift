@@ -8,11 +8,11 @@
 
 import UIKit
 
-class TableViewCell<View: UIView, ViewModel>: UITableViewCell, Reusable where View: ViewModelOwner, View.ViewModel == ViewModel {
+public final class TableViewCell<View: UIView, ViewModel>: UITableViewCell, Reusable where View: ViewModelOwner, View.ViewModel == ViewModel {
 
     var customView: View
 
-    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+    override public init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         customView = View()
 
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -38,7 +38,7 @@ class TableViewCell<View: UIView, ViewModel>: UITableViewCell, Reusable where Vi
         fatalError("init(coder:) has not been implemented")
     }
 
-    final var viewModel: ViewModel? {
+    public final var viewModel: ViewModel? {
         get {
             return customView.viewModel
         }
@@ -48,7 +48,7 @@ class TableViewCell<View: UIView, ViewModel>: UITableViewCell, Reusable where Vi
         }
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
+    override public func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         customView.isSelected = selected
     }

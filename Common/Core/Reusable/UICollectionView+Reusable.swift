@@ -11,18 +11,18 @@ import UIKit
 // MARK: Reusable support for UICollectionView
 extension UICollectionView {
 
-    final func register<T: UICollectionViewCell>(cellType: T.Type)
+    public final func register<T: UICollectionViewCell>(cellType: T.Type)
         where T: Reusable & NibLoadable {
             self.register(cellType.nib, forCellWithReuseIdentifier: cellType.reuseIdentifier)
     }
 
-    final func register<T: UICollectionViewCell>(cellType: T.Type)
+    public final func register<T: UICollectionViewCell>(cellType: T.Type)
         where T: Reusable {
             self.register(cellType.self, forCellWithReuseIdentifier: cellType.reuseIdentifier)
     }
 
-    final func dequeueReusableCell<T: UICollectionViewCell>(for indexPath: IndexPath,
-                                                            cellType: T.Type = T.self) -> T
+    public final func dequeueReusableCell<T: UICollectionViewCell>(for indexPath: IndexPath,
+                                                                   cellType: T.Type = T.self) -> T
         where T: Reusable {
             let bareCell = self.dequeueReusableCell(withReuseIdentifier: cellType.reuseIdentifier,
                                                     for: indexPath)
@@ -36,25 +36,25 @@ extension UICollectionView {
             return cell
     }
 
-    final func register<T: UICollectionReusableView>(supplementaryViewType: T.Type,
-                                                     ofKind elementKind: String)
+    public final func register<T: UICollectionReusableView>(supplementaryViewType: T.Type,
+                                                            ofKind elementKind: String)
         where T: Reusable & NibLoadable {
             self.register(supplementaryViewType.nib,
                           forSupplementaryViewOfKind: elementKind,
                           withReuseIdentifier: supplementaryViewType.reuseIdentifier)
     }
 
-    final func register<T: UICollectionReusableView>(supplementaryViewType: T.Type,
-                                                     ofKind elementKind: String)
+    public final func register<T: UICollectionReusableView>(supplementaryViewType: T.Type,
+                                                            ofKind elementKind: String)
         where T: Reusable {
             self.register(supplementaryViewType.self,
                           forSupplementaryViewOfKind: elementKind,
                           withReuseIdentifier: supplementaryViewType.reuseIdentifier)
     }
 
-    final func dequeueReusableSupplementaryView<T: UICollectionReusableView>(ofKind elementKind: String,
-                                                                             for indexPath: IndexPath,
-                                                                             viewType: T.Type = T.self) -> T
+    public final func dequeueReusableSupplementaryView<T: UICollectionReusableView>(ofKind elementKind: String,
+                                                                                    for indexPath: IndexPath,
+                                                                                    viewType: T.Type = T.self) -> T
         where T: Reusable {
             let view = self.dequeueReusableSupplementaryView(ofKind: elementKind,
                                                              withReuseIdentifier: viewType.reuseIdentifier,

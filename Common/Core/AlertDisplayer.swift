@@ -8,13 +8,13 @@
 
 import UIKit
 
-protocol AlertDisplayer {
+public protocol AlertDisplayer {
   func displayAlert(with title: String, message: String, actions: [UIAlertAction]?)
 }
 
 extension AlertDisplayer where Self: UIViewController {
 
-  func displayAlert(with title: String, message: String, actions: [UIAlertAction]? = nil) {
+  public func displayAlert(with title: String, message: String, actions: [UIAlertAction]? = nil) {
 
     guard presentedViewController == nil else {
       return

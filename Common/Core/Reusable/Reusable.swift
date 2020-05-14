@@ -8,15 +8,15 @@
 
 import UIKit
 
-protocol Reusable: class {
+public protocol Reusable: class {
     static var reuseIdentifier: String { get }
 }
 
-typealias NibReusable = Reusable & NibLoadable
+public typealias NibReusable = Reusable & NibLoadable
 
 extension Reusable {
 
-    static var reuseIdentifier: String {
+    public static var reuseIdentifier: String {
         return String(describing: self)
     }
 }

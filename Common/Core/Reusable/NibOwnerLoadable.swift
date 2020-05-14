@@ -8,19 +8,19 @@
 
 import UIKit
 
-protocol NibOwnerLoadable: class {
+public protocol NibOwnerLoadable: class {
     static var nib: UINib { get }
 }
 
 extension NibOwnerLoadable {
-    static var nib: UINib {
+    public static var nib: UINib {
         return UINib(nibName: String(describing: self), bundle: Bundle(for: self))
     }
 }
 
 extension NibOwnerLoadable where Self: UIView {
 
-    func loadNibContent() {
+    public func loadNibContent() {
         let layoutAttributes: [NSLayoutConstraint.Attribute] = [.top, .leading, .bottom, .trailing]
         for case let view as UIView in Self.nib.instantiate(withOwner: self, options: nil) {
             view.translatesAutoresizingMaskIntoConstraints = false

@@ -154,16 +154,16 @@
 		B332525224417F360018AD75 /* LayoutKit */ = {
 			isa = PBXGroup;
 			children = (
+				B332525E24417F360018AD75 /* Helper */,
+				B332525924417F360018AD75 /* Protocol */,
 				B332525324417F360018AD75 /* LayoutConstraintItem.swift */,
 				B332525424417F360018AD75 /* LayoutConstraintMaker.swift */,
 				B332525524417F360018AD75 /* LayoutConstraintMakerExtendable.swift */,
 				B332525624417F360018AD75 /* LayoutConstraintMakerSupportable.swift */,
 				B332525724417F360018AD75 /* LayoutViewConstraint.swift */,
 				B332525824417F360018AD75 /* LayoutViewConstraintSafeArea.swift */,
-				B332525924417F360018AD75 /* Protocol */,
 				B332525C24417F360018AD75 /* LayoutConstraintSafeAreaItem.swift */,
 				B332525D24417F360018AD75 /* LayoutView.swift */,
-				B332525E24417F360018AD75 /* Helper */,
 			);
 			path = LayoutKit;
 			sourceTree = "<group>";

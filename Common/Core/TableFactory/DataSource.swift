@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol DataSourceDelegate: class {
+public protocol DataSourceDelegate: class {
     func scrollViewDidScroll(_ scrollView: UIScrollView)
     func loadData(loading: Bool)
     func loadData(forItemAtIndex: Int)
@@ -17,20 +17,20 @@ protocol DataSourceDelegate: class {
     func cancelNextPage()
 }
 
-class DataSource: NSObject {
+public final class DataSource: NSObject {
 
     private let tableView: UITableView
 
-    weak var delegate: DataSourceDelegate?
+    public weak var delegate: DataSourceDelegate?
 
-    var sections: [TableSection] {
+    public var sections: [TableSection] {
         didSet {
             sections.forEach { $0.registerCell(tableView) }
             tableView.reloadData()
         }
     }
 
-    init(tableView: UITableView) {
+    public init(tableView: UITableView) {
         self.sections = []
         self.tableView = tableView
         super.init()
@@ -39,7 +39,7 @@ class DataSource: NSObject {
         self.tableView.prefetchDataSource = self
     }
 
-    func appendSection(_ sections: [TableSection] ) {
+    public func appendSection(_ sections: [TableSection] ) {
         let last = IndexSet(integer: self.sections.count - 1)
         self.sections.append(contentsOf: sections)
         self.tableView.insertSections(last, with: .fade)
@@ -49,20 +49,20 @@ class DataSource: NSObject {
 
 extension DataSource: UITableViewDataSource {
 
-    func numberOfSections(in tableView: UITableView) -> Int {
+    public func numberOfSections(in tableView: UITableView) -> Int {
         return sections.count
     }
 
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return sections[section].numberOfRows
     }
 
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let section = sections[indexPath.section]
         return section.cellFactory(tableView, indexPath)
     }
 
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+    public func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         let section = sections[section]
         return section.title
     }
@@ -71,23 +71,23 @@ extension DataSource: UITableViewDataSource {
 
 extension DataSource: UITableViewDelegate {
 
-    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+    public func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         let section = sections[indexPath.section]
         cell.separatorInset = section.separatorInset(for: indexPath)
         cell.selectionStyle = .none
     }
 
-    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+    public func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let section = sections[section]
         return section.headerFactory(tableView)
     }
 
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+    public func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         let section = sections[section]
         return section.headerHeight
     }
 
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let section = sections[indexPath.section]
         section.didSelectRow(for: indexPath)
     }
@@ -96,7 +96,7 @@ extension DataSource: UITableViewDelegate {
 
 extension DataSource: UIScrollViewDelegate {
 
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         delegate?.scrollViewDidScroll(scrollView)
     }
     

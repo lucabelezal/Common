@@ -11,25 +11,25 @@ import UIKit
 public protocol ViewCodable {
     func setupView()
     func configure()
-    func hierarchy()
-    func constraints()
-    func styles()
+    func buildHierarchy()
+    func buildConstraints()
+    func render()
     func bindComponents()
     func setupAcessibilityIdentifiers()
 }
 
-public extension ViewCodable {
+extension ViewCodable {
 
-    func setupView() {
+    public func setupView() {
         configure()
-        hierarchy()
-        constraints()
-        styles()
+        buildHierarchy()
+        buildConstraints()
+        render()
         bindComponents()
         setupAcessibilityIdentifiers()
     }
 
-    func bindComponents() { }
+    public func bindComponents() { }
 
-    func setupAcessibilityIdentifiers() { }
+    public func setupAcessibilityIdentifiers() { }
 }

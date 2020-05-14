@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol TableSection {
+public protocol TableSection {
 
     typealias HeaderFactory = (UITableView) -> UIView?
     typealias CellFactory = ((UITableView, IndexPath) -> UITableViewCell)
@@ -28,15 +28,15 @@ extension TableSection {
 
     // MARK: - Option Properties
 
-    var title: String? {
+    public var title: String? {
         return nil
     }
 
-    var headerHeight: CGFloat {
+    public var headerHeight: CGFloat {
         return 0
     }
 
-    var headerFactory: HeaderFactory {
+    public var headerFactory: HeaderFactory {
         return { _ in
             return nil
         }
@@ -44,9 +44,9 @@ extension TableSection {
 
     // MARK: - Option Methods
 
-    func separatorInset(for indexPath: IndexPath) -> UIEdgeInsets {
+    public func separatorInset(for indexPath: IndexPath) -> UIEdgeInsets {
         return UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
     }
 
-    func didSelectRow(for indexPath: IndexPath) {}
+    public func didSelectRow(for indexPath: IndexPath) {}
 }
