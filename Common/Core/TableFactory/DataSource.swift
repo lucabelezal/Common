@@ -104,7 +104,7 @@ extension DataSource: UIScrollViewDelegate {
 
 extension DataSource: UITableViewDataSourcePrefetching {
 
-    func tableView(_ tableView: UITableView, prefetchRowsAt indexPaths: [IndexPath]) {
+    public func tableView(_ tableView: UITableView, prefetchRowsAt indexPaths: [IndexPath]) {
 
         indexPaths.forEach { indexPath in
 
