@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "1d618a86f7231d3c5cf99c674df61834"
+build_time: [1590334849, 523069000]
+inputs:
+  "/Users/l.b.do.nascimento/GITHUB/Common/Tests/CommonTests/CommonTests.swift": [1590334815, 948146834]
+  "/Users/l.b.do.nascimento/GITHUB/Common/Tests/CommonTests/XCTestManifests.swift": [1590334815, 948586042]

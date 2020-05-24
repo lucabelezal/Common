@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "ad4ff3fb74f758505d56ce72431a743a"
+build_time: [1590334842, 808672000]
+inputs:
+  "/Users/l.b.do.nascimento/GITHUB/Common/Sources/Common/Common.swift": [1590334815, 946671524]

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/master.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Sources/Common/Common.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Common.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Common.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Common~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Common.swiftdeps"
+  }
+}

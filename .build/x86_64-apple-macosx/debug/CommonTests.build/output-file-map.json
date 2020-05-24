@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonTests.build/master.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Tests/CommonTests/CommonTests.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonTests.build/CommonTests.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonTests.build/CommonTests.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonTests.build/CommonTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonTests.build/CommonTests.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Tests/CommonTests/XCTestManifests.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonTests.build/XCTestManifests.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonTests.build/XCTestManifests.swiftdeps"
+  }
+}
