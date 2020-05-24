@@ -2,10 +2,11 @@ client:
   name: basic
 tools: {}
 targets:
-  "main": ["/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.swiftmodule","<Common-debug.module>"]
-  "test": ["/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.swiftmodule","/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonPackageTests.xctest/Contents/MacOS/CommonPackageTests","/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonTests.swiftmodule","<Common-debug.module>","<CommonPackageTests-debug.test>","<CommonTests-debug.module>"]
+  "main": ["/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.swiftmodule","/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/libCommonStatic.a","<Common-debug.module>","<CommonStatic-debug.a>"]
+  "test": ["/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.swiftmodule","/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonPackageTests.xctest/Contents/MacOS/CommonPackageTests","/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonTests.swiftmodule","/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/libCommonStatic.a","<Common-debug.module>","<CommonPackageTests-debug.test>","<CommonStatic-debug.a>","<CommonTests-debug.module>"]
   "Common-debug.module": ["/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.swiftmodule","<Common-debug.module>"]
   "CommonPackageTests-debug.test": ["/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonPackageTests.xctest/Contents/MacOS/CommonPackageTests","<CommonPackageTests-debug.test>"]
+  "CommonStatic-debug.a": ["/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/libCommonStatic.a","<CommonStatic-debug.a>"]
   "CommonTests-debug.module": ["/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonTests.swiftmodule","<CommonTests-debug.module>"]
 default: "main"
 commands: 
@@ -18,6 +19,11 @@ commands:
     tool: phony
     inputs: ["/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonPackageTests.xctest/Contents/MacOS/CommonPackageTests"]
     outputs: ["<CommonPackageTests-debug.test>"]
+
+  "<C.CommonStatic-debug.a>":
+    tool: phony
+    inputs: ["/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/libCommonStatic.a"]
+    outputs: ["<CommonStatic-debug.a>"]
 
   "<C.CommonTests-debug.module>":
     tool: phony
@@ -46,6 +52,11 @@ commands:
     inputs: ["/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Common.swift.o","/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonTests.build/CommonTests.swift.o","/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonTests.build/XCTestManifests.swift.o"]
     outputs: ["/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonPackageTests.xctest/Contents/MacOS/CommonPackageTests"]
     args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-L","/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug","-o","/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonPackageTests.xctest/Contents/MacOS/CommonPackageTests","-module-name","CommonPackageTests","-Xlinker","-bundle","@/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/CommonPackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx","-target","x86_64-apple-macosx10.10","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.CommonStatic-debug.a":
+    tool: archive
+    inputs: ["/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Common.swift.o"]
+    outputs: ["/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/libCommonStatic.a"]
 
   "C.CommonTests-debug.module":
     tool: swift-compiler

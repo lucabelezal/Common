@@ -2,10 +2,172 @@
   "": {
     "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/master.swiftdeps"
   },
-  "/Users/l.b.do.nascimento/GITHUB/Common/Sources/Common/Common.swift": {
-    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Common.d",
-    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Common.swift.o",
-    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Common~partial.swiftmodule",
-    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Common.swiftdeps"
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/AlertDisplayer.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/AlertDisplayer.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/AlertDisplayer.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/AlertDisplayer~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/AlertDisplayer.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/LayoutKit/Helper/LayoutConstraintType.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Helper/LayoutConstraintType.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Helper/LayoutConstraintType.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Helper/LayoutConstraintType~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Helper/LayoutConstraintType.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/LayoutKit/Helper/LayoutEdgeInsets.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Helper/LayoutEdgeInsets.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Helper/LayoutEdgeInsets.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Helper/LayoutEdgeInsets~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Helper/LayoutEdgeInsets.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/LayoutKit/Helper/LayoutPriortizable.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Helper/LayoutPriortizable.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Helper/LayoutPriortizable.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Helper/LayoutPriortizable~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Helper/LayoutPriortizable.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/LayoutKit/Helper/Typealiases.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Helper/Typealiases.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Helper/Typealiases.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Helper/Typealiases~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Helper/Typealiases.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/LayoutKit/LayoutConstraintItem.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintItem.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintItem.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintItem.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/LayoutKit/LayoutConstraintMaker.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintMaker.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintMaker.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintMaker~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintMaker.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/LayoutKit/LayoutConstraintMakerExtendable.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintMakerExtendable.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintMakerExtendable.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintMakerExtendable~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintMakerExtendable.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/LayoutKit/LayoutConstraintMakerSupportable.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintMakerSupportable.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintMakerSupportable.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintMakerSupportable~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintMakerSupportable.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/LayoutKit/LayoutConstraintSafeAreaItem.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintSafeAreaItem.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintSafeAreaItem.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintSafeAreaItem~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutConstraintSafeAreaItem.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/LayoutKit/LayoutView.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutView.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutView.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutView~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutView.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/LayoutKit/LayoutViewConstraint.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutViewConstraint.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutViewConstraint.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutViewConstraint~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutViewConstraint.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/LayoutKit/LayoutViewConstraintSafeArea.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutViewConstraintSafeArea.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutViewConstraintSafeArea.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutViewConstraintSafeArea~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/LayoutViewConstraintSafeArea.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/LayoutKit/Protocol/LayoutConstraintItemable.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Protocol/LayoutConstraintItemable.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Protocol/LayoutConstraintItemable.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Protocol/LayoutConstraintItemable~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Protocol/LayoutConstraintItemable.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/LayoutKit/Protocol/LayoutConstraintMakerRelatable.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Protocol/LayoutConstraintMakerRelatable.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Protocol/LayoutConstraintMakerRelatable.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Protocol/LayoutConstraintMakerRelatable~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/LayoutKit/Protocol/LayoutConstraintMakerRelatable.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/Reusable/NibLoadable.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/NibLoadable.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/NibLoadable.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/NibLoadable~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/NibLoadable.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/Reusable/NibOwnerLoadable.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/NibOwnerLoadable.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/NibOwnerLoadable.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/NibOwnerLoadable~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/NibOwnerLoadable.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/Reusable/Reusable.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/Reusable.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/Reusable.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/Reusable~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/Reusable.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/Reusable/UICollectionView+Reusable.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/UICollectionView+Reusable.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/UICollectionView+Reusable.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/UICollectionView+Reusable~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/UICollectionView+Reusable.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/Reusable/UITableView+Reusable.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/UITableView+Reusable.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/UITableView+Reusable.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/UITableView+Reusable~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Reusable/UITableView+Reusable.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/String+Extension.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/String+Extension.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/String+Extension.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/String+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/String+Extension.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/TableFactory/DataSource.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/TableFactory/DataSource.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/TableFactory/DataSource.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/TableFactory/DataSource~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/TableFactory/DataSource.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/TableFactory/TableSection.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/TableFactory/TableSection.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/TableFactory/TableSection.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/TableFactory/TableSection~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/TableFactory/TableSection.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/TableViewCell.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/TableViewCell.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/TableViewCell.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/TableViewCell~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/TableViewCell.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/UIImageView+Cache.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/UIImageView+Cache.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/UIImageView+Cache.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/UIImageView+Cache~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/UIImageView+Cache.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/ViewCodable.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/ViewCodable.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/ViewCodable.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/ViewCodable~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/ViewCodable.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/ViewModelOwner.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/ViewModelOwner.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/ViewModelOwner.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/ViewModelOwner~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/ViewModelOwner.swiftdeps"
+  },
+  "/Users/l.b.do.nascimento/GITHUB/Common/Common/Core/Views/CardView.swift": {
+    "dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Views/CardView.d",
+    "object": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Views/CardView.swift.o",
+    "swiftmodule": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Views/CardView~partial.swiftmodule",
+    "swift-dependencies": "/Users/l.b.do.nascimento/GITHUB/Common/.build/x86_64-apple-macosx/debug/Common.build/Core/Views/CardView.swiftdeps"
   }
 }

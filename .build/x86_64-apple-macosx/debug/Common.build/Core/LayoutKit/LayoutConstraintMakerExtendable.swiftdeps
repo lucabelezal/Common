@@ -1,0 +1,114 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LayoutConstraintMakerExtendable"
+provides-nominal:
+- "6Common31LayoutConstraintMakerExtendableC"
+provides-member:
+- ["6Common31LayoutConstraintMakerExtendableC", ""]
+- ["6Common31LayoutConstraintMakerExtendableC", "configure"]
+- ["6Common31LayoutConstraintMakerExtendableC", "configure"]
+- ["6Common31LayoutConstraintMakerExtendableC", "configure"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "CGFloat"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "LayoutAttribute"
+- "LayoutConstraint"
+- "LayoutConstraintItemConfigurable"
+- "LayoutConstraintItemable"
+- "LayoutConstraintMakerExtendable"
+- "LayoutConstraintMakerRelatable"
+- "LayoutConstraintMakerSupportable"
+- "LayoutConstraintType"
+- "LayoutDimensionAnchor"
+- !private "LayoutPriortizable"
+- "LayoutView"
+- "LayoutXAnchor"
+- "LayoutYAnchor"
+- !private "StringLiteralType"
+- !private "fatalError"
+depends-member:
+- !private ["SQ", "equalTo"]
+- !private ["SQ", "greaterThanOrEqualTo"]
+- !private ["SH", "equalTo"]
+- !private ["SH", "greaterThanOrEqualTo"]
+- !private ["6Common32LayoutConstraintItemConfigurableP", "attribute"]
+- !private ["6Common32LayoutConstraintItemConfigurableP", "isSafeArea"]
+- ["6Common31LayoutConstraintMakerExtendableC", "CGFloat"]
+- ["6Common31LayoutConstraintMakerExtendableC", "LayoutAttribute"]
+- ["6Common31LayoutConstraintMakerExtendableC", "LayoutConstraint"]
+- ["6Common31LayoutConstraintMakerExtendableC", "LayoutConstraintItemConfigurable"]
+- ["6Common31LayoutConstraintMakerExtendableC", "LayoutConstraintItemable"]
+- ["6Common31LayoutConstraintMakerExtendableC", "LayoutConstraintMakerSupportable"]
+- ["6Common31LayoutConstraintMakerExtendableC", "LayoutConstraintType"]
+- ["6Common31LayoutConstraintMakerExtendableC", "LayoutDimensionAnchor"]
+- !private ["6Common31LayoutConstraintMakerExtendableC", "LayoutPriortizable"]
+- ["6Common31LayoutConstraintMakerExtendableC", "LayoutView"]
+- ["6Common31LayoutConstraintMakerExtendableC", "LayoutXAnchor"]
+- ["6Common31LayoutConstraintMakerExtendableC", "LayoutYAnchor"]
+- !private ["6Common31LayoutConstraintMakerExtendableC", "attribute"]
+- ["6Common31LayoutConstraintMakerExtendableC", "deinit"]
+- ["6Common31LayoutConstraintMakerExtendableC", "equalTo"]
+- !private ["6Common31LayoutConstraintMakerExtendableC", "fatalError"]
+- ["6Common31LayoutConstraintMakerExtendableC", "greaterThanOrEqualTo"]
+- ["6Common31LayoutConstraintMakerExtendableC", "lessThanOrEqualTo"]
+- !private ["6Common31LayoutConstraintMakerExtendableC", "view"]
+- !private ["6Common30LayoutConstraintMakerRelatableP", "LayoutConstraintMakerSupportable"]
+- !private ["6Common30LayoutConstraintMakerRelatableP", "LayoutPriortizable"]
+- ["6Common30LayoutConstraintMakerRelatableP", ""]
+- !private ["6Common30LayoutConstraintMakerRelatableP", "attribute"]
+- ["6Common30LayoutConstraintMakerRelatableP", "equalTo"]
+- !private ["6Common30LayoutConstraintMakerRelatableP", "fatalError"]
+- ["6Common30LayoutConstraintMakerRelatableP", "greaterThanOrEqualTo"]
+- ["6Common30LayoutConstraintMakerRelatableP", "lessThanOrEqualTo"]
+- !private ["6Common30LayoutConstraintMakerRelatableP", "view"]
+- !private ["6Common20LayoutConstraintTypeO", "deinit"]
+- !private ["6Common20LayoutConstraintTypeO", "equalTo"]
+- !private ["6Common20LayoutConstraintTypeO", "greaterThanOrEqualTo"]
+- !private ["6Common18LayoutPriortizableO", "required"]
+depends-nominal:
+- !private "SQ"
+- !private "SH"
+- !private "6Common32LayoutConstraintItemConfigurableP"
+- "6Common31LayoutConstraintMakerExtendableC"
+- "6Common30LayoutConstraintMakerRelatableP"
+- !private "6Common20LayoutConstraintTypeO"
+- !private "6Common18LayoutPriortizableO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/XPC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/IOKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-macos.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "58e79aa9ce314d2b6a7fb2170684fb7a"
