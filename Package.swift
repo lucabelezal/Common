@@ -9,7 +9,14 @@ let package = Package(
         .library(name: "CommonStatic", type: .static, targets: ["Common"])
     ],
     targets: [
-        .target(name: "Common"),
-        .testTarget(name: "CommonTests", dependencies: ["Common"])
-    ]
+        .target(
+            name: "Common", 
+            path: "Sources"
+        ),
+        .testTarget(
+            name: "CommonTests",
+            dependencies: ["Common"]
+            )
+        ],
+    swiftLanguageVersions: [.v5]
 )

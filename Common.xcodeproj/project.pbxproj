@@ -127,14 +127,14 @@
 		B332522E24417D060018AD75 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				B332523724417D940018AD75 /* Core */,
+				B332523724417D940018AD75 /* Sources */,
 				B332522F24417D060018AD75 /* Common.h */,
 				B332523024417D060018AD75 /* Info.plist */,
 			);
 			path = Common;
 			sourceTree = "<group>";
 		};
-		B332523724417D940018AD75 /* Core */ = {
+		B332523724417D940018AD75 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				B332525224417F360018AD75 /* LayoutKit */,
@@ -148,7 +148,7 @@
 				B332527224417F370018AD75 /* ViewCodable.swift */,
 				B332527024417F370018AD75 /* ViewModelOwner.swift */,
 			);
-			path = Core;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		B332525224417F360018AD75 /* LayoutKit */ = {

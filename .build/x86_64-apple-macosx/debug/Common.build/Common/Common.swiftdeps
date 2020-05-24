@@ -1,0 +1,23 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Common"
+provides-nominal:
+- "6CommonAAV"
+provides-member:
+- ["6CommonAAV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Common"
+- "StringLiteralType"
+depends-member:
+- ["6CommonAAV", "init"]
+- ["6CommonAAV", "text"]
+depends-nominal:
+- "6CommonAAV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+interface-hash: "03e9f83d2a5e55ede2e2761a9f3f2688"
